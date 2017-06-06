@@ -6,6 +6,12 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  color: black;
+  display: block;
+  text-decoration: none; 
+}
+
 h1, h2 {
   display: block;
   font-size: 12vw;
@@ -20,22 +26,3 @@ h1, h2 {
   justify-content: center;
   width: 100%;
 }
-
-.dadd-lab {
-  display: none;
-}
-
-.bald-dad-toggle {
-  color: black;
-  display: block;
-  text-decoration: none;
-  &:hover {
-    .bald-dad {
-      display: none;
-    }
-    .dadd-lab {
-      display: block;
-    }
-  }
-}
-
