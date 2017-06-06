@@ -30,7 +30,7 @@ h1, h2 {
 .bald-dad-toggle {
   color: black;
   display: block;
-  cursor: pointer; }
+  text-decoration: none; }
   .bald-dad-toggle:hover .bald-dad {
     display: none; }
   .bald-dad-toggle:hover .dadd-lab {
