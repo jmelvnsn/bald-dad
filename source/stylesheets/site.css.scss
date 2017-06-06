@@ -1,0 +1,41 @@
+body {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+  display: block;
+  font-size: 12vw;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.bald-dad-body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.dadd-lab {
+  display: none;
+}
+
+.bald-dad-toggle {
+  color: black;
+  display: block;
+  cursor: pointer;
+  &:hover {
+    .bald-dad {
+      display: none;
+    }
+    .dadd-lab {
+      display: block;
+    }
+  }
+}
+
