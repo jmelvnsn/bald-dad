@@ -28,7 +28,7 @@ h1, h2 {
 .bald-dad-toggle {
   color: black;
   display: block;
-  cursor: pointer;
+  text-decoration: none;
   &:hover {
     .bald-dad {
       display: none;
