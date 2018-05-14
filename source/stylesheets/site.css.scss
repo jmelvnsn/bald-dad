@@ -1,22 +1,10 @@
 body {
   background: white;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 600;
   margin: 0;
-  padding: 0;
-}
-
-a {
-  color: black;
-  display: block;
-  text-decoration: none; 
-}
-
-h1 {
-  display: block;
-  font-size: 12vw;
-  margin: 0;
-  text-transform: uppercase;
+  padding: 0 10px;
 }
 
 .bald-dad-body {
@@ -25,4 +13,27 @@ h1 {
   height: 100vh;
   justify-content: center;
   width: 100%;
+  a {
+    color: black;
+    display: block;
+    max-width: 600px;
+    text-decoration: none; 
+    width: 100%;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  span {
+    display: block;
+    font-size: 8vw;
+    margin: 0;
+    text-transform: uppercase;    
+  }
+  .align-left {
+    text-align: left;
+  }
+  .align-right {
+    text-align: right;
+  }
 }
